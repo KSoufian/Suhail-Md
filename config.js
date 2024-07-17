@@ -18,8 +18,8 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/Kerroumisoufian/silana-bot";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VajBHweI1rcZdFKzDK1I";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VajBHweI1rcZdFKzDK1I" ; 
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/Jltjdk1ciAoLKZogIH7kju";
+global.website=process.env.GURL || "https://chat.whatsapp.com/Jltjdk1ciAoLKZogIH7kju" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/v1j1R4R.jpeg?raw=true" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ SOUFIAN KERROUMI /²²¹-ᴍᴅ" 
 
@@ -67,7 +67,7 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_09_51_07_14_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: soufian bot Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
